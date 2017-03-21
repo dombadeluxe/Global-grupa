@@ -1,0 +1,916 @@
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*HEAD*/
+
+
+
+.head {
+    padding: 0px;
+    margin: 0px;
+}
+/*NAVBAR*/
+
+
+.navbar-default {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    border-radius: 0px;
+    background-color: rgb(0,0,0);
+    border: 0px;
+}
+
+
+.navbar-brand {
+    font-size: 32px;
+    border-bottom: 7px solid transparent;
+    float: left;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #f5f5f5;
+    float: left;
+}
+
+
+.navbar-nav {
+    float: right;
+}
+
+
+.navbar-nav>li {
+    border-bottom: 7px solid transparent;
+    transition: 0.6s;
+}
+
+
+.navbar-nav>li:hover {
+    border-bottom: 7px solid rgba(0,153,0,0.8);
+    background-color: rgba(0,102,58,0.6);
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #f5f5f5;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:visited {
+    color: #f5f5f5;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: rgba(0,102,58,0.6);
+    color: #f5f5f5;
+}
+
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 7px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.dropdown-menu>li>a {
+    color: #f5f5f5;
+}
+
+
+
+
+
+
+/*SLIDER IMAGES*/
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    max-height: 800px;
+
+}
+
+.carousel-caption {
+    padding-bottom: 300px;
+}
+
+
+.carousel-caption p {
+    padding-bottom: 50px;
+}
+
+
+.carousel-caption a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.4);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+
+.carousel-caption a:hover,
+.carousel-caption a:focus,
+.carousel-caption a:active{
+    border: 3px solid rgba(0,102,58,0.9);
+    text-decoration: none;
+}
+
+.h3, h3 {
+    font-size: 52px;
+}
+
+.carousel-indicators .active {
+    background-color: rgba(0,153,0,0.5);
+}
+
+
+
+
+/*CENTER*/
+/*ONAMA*/
+
+
+.center {
+    background-image: linear-gradient(rgba(0,153,0,0.9),rgba(0,153,0,0.9)),
+    url("img/pattern3.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+.center .col-md-4 {
+    background-color: rgba(0,0,0,0.8);
+    color: #f5f5f5;
+    height: 450px;
+}
+
+
+.center .col-md-3{
+    color: #f5f5f5;
+    height: 450px;
+    background-color: rgba(0,0,0,0.6);
+}
+.center .col-md-2{
+    color: #f5f5f5;
+    height: 450px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.center .box {
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 62px;
+}
+
+
+.center .box h1 {
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin-bottom: 30px;
+    text-align: match-parent;
+}
+
+
+.h1-fix {
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.center .box p {
+    padding-bottom: 35px;
+    text-align: start;
+}
+
+
+.center .box a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.4);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+
+.center .box a:hover,
+.center .box a:focus,
+.center .box a:active {
+    border: 3px solid rgba(0,102,58,0.9);
+    text-decoration: none;
+}
+
+
+.btn-primary {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.4);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    border: 3px solid rgba(0,102,58,0.9);
+    text-decoration: none;
+    background-color: rgb(0,153,0);
+}
+
+
+
+/*KREDITNI KALKULATOR*/
+
+
+.credit {
+    padding-top: 20px;
+
+}
+
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #dbdbdb;
+    position: relative;
+    outline: none;
+    margin-bottom: 20px;
+}
+.slider-point{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(0,153,0);
+    position: absolute;
+    top: -5px;
+    -moz-transition: left 0.3s;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0,153,0);
+    cursor: pointer;
+    -moz-transition: background .15s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background-color: rgb(0,153,0);
+}
+
+.slider:active::-webkit-slider-thumb {
+    background-color: rgb(0,153,0);
+}
+
+.slider::-moz-range-thumb {
+    width:20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgb(0,153,0);
+    cursor: pointer;
+    -moz-transition: background .15s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+.slider::-moz-range-thumb:hover {
+    background-color: rgb(0,153,0);
+}
+
+.slider:active::-moz-range-thumb {
+    background-color: rgb(0,153,0);
+}
+
+.spinner {
+    width: 70px;
+    text-align: center;
+    float: right;
+}
+
+.spinner > div {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0,153,0);
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+    animation: bouncedelay 1.4s infinite ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+    0%, 80%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 40% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+
+
+
+/*CENTER-TWO*/
+
+
+.center-two {
+    padding-top: 63px;
+    padding-bottom: 62px;
+}
+
+
+.center-two h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgb(0,153,0);
+}
+
+
+.center-two h4 {
+    padding-bottom: 35px;
+}
+
+
+.center-two .col-md-6 {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+.center-two .col-md-4 {
+    margin: auto;
+    text-align: center;
+}
+
+
+.col-md-4 a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.4);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+
+.col-md-4 a:hover,
+.col-md-4 a:focus,
+.col-md-4 a:active {
+    border: 3px solid rgba(0,102,58,0.9);
+    text-decoration: none;
+}
+
+
+
+/*CENTER-TREE*/
+/*PARTNERI*/
+
+.center-tree {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,153,0,0.7),rgba(0,153,0,0.4)),
+    url("img/center-tree.jpg");
+}
+
+
+.center-tree .col-md-3 {
+    padding-top: 63px;
+    padding-bottom: 62px;
+}
+
+
+.center-tree .col-md-3 h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.center-tree .col-md-3 ul {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+.center-tree .col-md-3 li {
+    list-style: none;
+    width: auto;
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.center-tree .col-md-3 a {
+
+}
+
+
+.center-tree .col-md-3 a img {
+    width: 150px;
+}
+
+
+/*PREPORUKE*/
+
+
+.center-tree .col-md-6  {
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 63px;
+    padding-bottom: 62px;
+
+}
+
+
+.center-tree .col-md-6 h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    color: #f5f5f5;
+    border-bottom: 1px solid rgba(0,153,0,0.5);
+}
+
+
+.center-tree .col-md-6 p {
+    text-align: center;
+    padding-bottom: 35px;
+    color: #f5f5f5;
+}
+
+
+.center-tree .col-md-6 .col-md-4 {
+    margin: auto;
+}
+
+
+.center-tree .col-md-6 .col-md-4 img {
+    border: 2px solid rgba(0,153,0,0.4);
+    margin-bottom: 35px;
+}
+
+
+
+/*KONTAKT*/
+
+.center-tree .col-md-3 {
+    text-align: center;
+}
+
+
+
+.center-tree .col-md-3 h1 {
+    color: #f5f5f5;
+}
+
+
+.center-tree .col-md-3 p {
+    color: #f5f5f5;
+    text-align: center;
+}
+
+
+.center-tree .col-md-3 .social {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.center-tree .col-md-3 .social {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+/*ONAMA*/
+
+.onama .background {
+    background-image: linear-gradient(rgba(0,153,0,0.0),rgba(0,153,0,0.0)),
+    url("img/onama-back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.onama  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.onama h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.onama a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.1);
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.onama a:hover,
+.onama a:focus,
+.onama a:active {
+    text-decoration: none;
+}
+
+
+.onama p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.onama .background .col-md-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.onama ul {
+    color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.onama h3 {
+    padding-left: 50px;
+}
+
+
+.onama ul li {
+    background-color: rgba(0,153,0,0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+/*KREDITIRANJE*/
+
+
+
+
+
+.kreditiranje .background {
+    background-image: linear-gradient(rgba(0,153,0,0.0),rgba(0,153,0,0.0)),
+    url("img/onama-back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.kreditiranje {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.kreditiranje h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.kreditiranje a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.1);
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.kreditiranje a:hover,
+.kreditiranje a:focus,
+.kreditiranje a:active {
+    text-decoration: none;
+}
+
+
+.kreditiranje p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.kreditiranje .col-md-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.kreditiranje ul {
+    color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.kreditiranje h3 {
+    padding-left: 50px;
+}
+
+
+.kreditiranje ul li {
+    background-color: rgba(0,153,0,0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+/*ZAPOSLENJE*/
+
+
+
+
+.zaposlenje {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.zaposlenje h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.zaposlenje a {
+    color: #f5f5f5;
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.zaposlenje a:hover,
+.zaposlenje a:focus,
+.zaposlenje a:active {
+    text-decoration: none;
+}
+
+
+.zaposlenje p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.onama .background .col-md-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.zaposlenje ul {
+    color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+
+
+.zaposlenje ul li {
+    background-color: rgba(0,153,0,0.9);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+
+
+
+
+/*OSIGURANJE*/
+
+
+
+.osiguranje {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.osiguranje h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.osiguranje a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.1);
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.osiguranje a:hover,
+.osiguranje a:focus,
+.osiguranje a:active {
+    text-decoration: none;
+}
+
+
+.osiguranje p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.osiguranje .col-md-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.osiguranje ul {
+    color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.osiguranje h3 {
+    padding-left: 50px;
+}
+
+
+.osiguranje ul li {
+    background-color: rgba(0,153,0,0.9);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+
+
+
+
+/*UPITNIK*/
+
+
+
+.upitnik {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.upitnik h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.upitnik a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.1);
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.upitnik a:hover,
+.upitnik a:focus,
+.upitnik a:active {
+    text-decoration: none;
+}
+
+
+
+
+/*KONTAKT*/
+
+
+
+
+
+.kontakt{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.kontakt h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.kontakt a {
+    color: #f5f5f5;
+    background-color: rgb(0,153,0);
+    padding: 6px 60px;
+    border: 3px solid rgba(0,102,58,0.1);
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.kontakt a:hover,
+.kontakt a:focus,
+.kontakt a:active {
+    text-decoration: none;
+}
+
+
